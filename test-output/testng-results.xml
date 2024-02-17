@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-22T15:49:12 IST" name="Suite" finished-at="2024-01-22T15:49:12 IST" duration-ms="520">
+    <groups>
+      <group name="dev test">
+        <method signature="TestNGAnnotations.zTestMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" name="zTestMethod" class="testng1.TestNGAnnotations"/>
+        <method signature="TestNGAnnotations.rTestMethod()[pri:1, instance:testng1.TestNGAnnotations@12aba8be]" name="rTestMethod" class="testng1.TestNGAnnotations"/>
+        <method signature="TestNGsuites.zTestMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" name="zTestMethod" class="testng2.TestNGsuites"/>
+        <method signature="TestNGsuites.rTestMethod()[pri:1, instance:testng2.TestNGsuites@4686afc2]" name="rTestMethod" class="testng2.TestNGsuites"/>
+      </group> <!-- dev test -->
+      <group name="release test">
+        <method signature="TestNGAnnotations.testMethod1()[pri:2, instance:testng1.TestNGAnnotations@12aba8be]" name="testMethod1" class="testng1.TestNGAnnotations"/>
+        <method signature="TestNGAnnotations.testMethod2()[pri:3, instance:testng1.TestNGAnnotations@12aba8be]" name="testMethod2" class="testng1.TestNGAnnotations"/>
+        <method signature="TestNGsuites.testMethod1()[pri:2, instance:testng2.TestNGsuites@4686afc2]" name="testMethod1" class="testng2.TestNGsuites"/>
+        <method signature="TestNGsuites.testMethod2()[pri:3, instance:testng2.TestNGsuites@4686afc2]" name="testMethod2" class="testng2.TestNGsuites"/>
+      </group> <!-- release test -->
+    </groups>
+    <test started-at="2024-01-22T15:49:12 IST" name="Test" finished-at="2024-01-22T15:49:12 IST" duration-ms="159">
+      <class name="testng1.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeClass" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="zTestMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="zTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zTestMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="rTestMethod()[pri:1, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="rTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rTestMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod1()[pri:2, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="testMethod1" finished-at="2024-01-22T15:49:12 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod2()[pri:3, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="testMethod2" finished-at="2024-01-22T15:49:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterClass" finished-at="2024-01-22T15:49:12 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+      </class> <!-- testng1.TestNGAnnotations -->
+    </test> <!-- Test -->
+    <test started-at="2024-01-22T15:49:12 IST" name="Test2" finished-at="2024-01-22T15:49:12 IST" duration-ms="139">
+      <class name="testng2.TestNGsuites">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeSuite" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeClass" finished-at="2024-01-22T15:49:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="zTestMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="zTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- zTestMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="rTestMethod()[pri:1, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="rTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rTestMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod1()[pri:2, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="testMethod1" finished-at="2024-01-22T15:49:12 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="beforeMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod2()[pri:3, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="testMethod2" finished-at="2024-01-22T15:49:12 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterClass" finished-at="2024-01-22T15:49:12 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterTestMethod" finished-at="2024-01-22T15:49:12 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testng2.TestNGsuites@4686afc2]" started-at="2024-01-22T15:49:12 IST" name="afterSuite" finished-at="2024-01-22T15:49:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng2.TestNGsuites -->
+      <class name="testng1.TestNGAnnotations">
+        <test-method is-config="true" signature="beforeSuite()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="beforeSuite" finished-at="2024-01-22T15:49:12 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:testng1.TestNGAnnotations@12aba8be]" started-at="2024-01-22T15:49:12 IST" name="afterSuite" finished-at="2024-01-22T15:49:12 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testng1.TestNGAnnotations -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
