@@ -10,8 +10,6 @@ public class primenum {
 		if(b==2) {
 			System.out.println("prime number");
 		}
-		else{System.out.println("not a prime number");
-		}
 	}
 
 }
